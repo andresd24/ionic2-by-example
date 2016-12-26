@@ -1,7 +1,6 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "love-calculator",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -29,22 +28,5 @@
   "devDependencies": {
     "@ionic/app-scripts": "0.0.47",
     "typescript": "2.0.9"
-  },
-  "cordovaPlugins": [
-    "cordova-plugin-console",
-    "cordova-plugin-whitelist",
-    "cordova-plugin-statusbar",
-    "cordova-plugin-device",
-    "cordova-plugin-splashscreen",
-    "ionic-plugin-keyboard"
-  ],
-  "cordovaPlatforms": [
-    "ios",
-    {
-      "platform": "ios",
-      "version": "",
-      "locator": "ios"
-    }
-  ],
-  "description": "love-calculator: An Ionic project"
+  }
 }

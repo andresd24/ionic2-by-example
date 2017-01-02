@@ -7,6 +7,11 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class DetailPage {
 
-  constructor(private navCtrl: NavController, public navParams: NavParams) { }
+  expense;
+
+  constructor(private navCtrl: NavController,
+              private navParams: NavParams) {
+    this.expense = navParams.get('expense');
+  }
 
 }
